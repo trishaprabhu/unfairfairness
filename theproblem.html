@@ -29,11 +29,14 @@
 						<!-- Content -->
 							<section id="content" class="main">
 								<!-- <span class="image main"><img src="images/pic04.jpg" alt="" /></span> -->
-								<h2>Magna feugiat lorem</h2>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
-								<p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
-								<h2>Tempus veroeros</h2>
-								<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
+								<h2> Researchers were trying to tackle AI bias... </h2>
+								<p> Society is increasingly investing in AI in a number of spaces, from education, to health, to justice. Given their scale, quick delivery, and accuracy, AI-powered technologies offer considerable promise in increasing access and improving services. Even so, over the last few years, we have quickly learned that AI biases can severely undermine these advances for certain groups, often historically marginalized groups. Technologies implemented in the justice system, for instance, have been found to be biased against people of color; health technologies have been found to work less effectively on Black patients. </p>
+								<p> These biases – and the unfair outcomes they are associated with – have led to a flurry of efforts to redress these biases. Phew, we thought. We’re finally ensuring that these technologies are fair! In fact, as <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4331652"> research led by members of our team has found </a>, algorithms developed to ensure fairness may actually lead to worse outcomes. </p>
+								<h2> Indeed, in some cases, this work has led to “unfair fairness...” </h2>
+								<p> How is that possible? Well, many of these algorithms adopt very simplistic definitions of fairness, for instance, where fairness means reducing gaps in performance or outcomes between demographic groups. The result is that these algorithms attempt to realize “fairness” in two key ways: 1) improving performance for worse-performing groups or 2) degrading performance for better-performing groups. Let’s take an example...say that an algorithm implemented in the justice system systematically misclassifies Black defendants who in fact have a “low risk” for recidivism as having a “high risk” for recidivism. (This could be for many reasons, e.g., biased data underlying the algorithm.) One way we might try to address this fairness issue is to improve performance for Black defendants; we might, for instance, tell the algorithm to flip the “high risk” classifications for Black defendants that it is the least confident about. In doing so, the performance gap between Black, and say, white defendants, would shrink. </p>
+								<p> But there’s a cost associated with all of this, of course: the system’s accuracy for Black defendants! Over time, the number of Black defendants mistakenly flipped to “low risk” (when they are, in fact, “high risk”) would grow. At some “tipping point,” we might decide that we simply cannot afford for the system to be any more inaccurate for Black defendants. At that point, if gaps between demographic groups persist, we have only one option to achieve “fairness,” as defined: reduce performance for White defendants. In other words, we’d now be telling the algorithm to flip the “low risk” classifications for White defendants that it is the least confident about. </p>
+								<p> But a lot of folks would argue that marking someone that was previously “low risk” as “high risk” has serious ethical implications (and indeed, is quite different from marking someone that was previously “high risk” as “low risk”)! Moreover, making this change does nothing for the disadvantaged group...it simply reduces the gap in “fairness” from a mathematical standpoint. </p>
+								<p> Our team was deeply concerned about this phenomenon, which we have labeled “leveling down.” Leveling down runs counter to the objectives of algorithmic fairness and broader equality goals in society: to improve outcomes for historically disadvantaged or marginalized groups. Despite this, it receives very little attention...something that we hope this website can change. </p>
 							</section>
 
 					</div>
@@ -41,21 +44,21 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<h2> The Games </h2>
+							<p> Our games were thoughtfully constructed to mirror real-world or high-risk theoretical examples of leveling down. </p>
 							<ul class="actions">
-								<li><a href="#" class="button">Learn More</a></li>
+								<li><a href="generic.html" class="button">Learn More</a></li>
 							</ul>
 						</section>
 						<section>
-							<h2>Etiam feugiat</h2>
+							<h2> Contact Us </h2>
 							<dl class="alt">
 								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dd> 1 St Giles' &bull; Oxford OX1 3JS &bull; England</dd>
 								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
+								<dd> +44-186-528-7210 </dd>
 								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
+								<dd><a href="#">contact@unfairfairness.org</a></dd>
 							</dl>
 							<ul class="icons">
 								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
@@ -65,7 +68,7 @@
 								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
 							</ul>
 						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Unfair Fairness 2023. All rights reserved.</a></p>
 					</footer>
 
 			</div>
